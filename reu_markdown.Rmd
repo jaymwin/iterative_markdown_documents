@@ -1,0 +1,31 @@
+---
+output: pdf_document
+---
+
+**Applicant:** `r applicant_name`  
+**Phone:** `r phone`  
+**Email:** `r email`  
+**Address:** `r address`  
+**Gender:** `r gender`  
+**Race:** `r race`  
+**Citizenship:** `r citizenship`  
+**Military service:** `r military`  
+
+**Parent's highest degree:** `r parent_degree`    
+**Current institution:** `r current_inst`    
+**Major:** `r major`    
+**Minor:** `r minor`    
+**Current status:** `r current`    
+**Graduation date:** `r grad_date`    
+
+**Plan to attend grad school?:** `r grad_school`    
+**Research experience interest:** `r res_exp`    
+
+**Why do you want to participate in the REU program?:** `r why`    
+
+**Describe any relevant experience:** `r rel_exp`    
+
+**What are your career plans?:** `r career`    
+
+**Would you live on campus?:** `r campus`    
+**Can you start around May 18?:** `r start`    
