@@ -77,7 +77,7 @@ for (i in 1:nrow(personalized_info)) {
   career <- personalized_info$please_provide_any_additional_information_about_you_or_your_career_plans_that_you_would_like_the_selection_committee_to_have[i]
   
   # create each document
-  rmarkdown::render(input = "reu_markdown.Rmd",
+  rmarkdown::render(input = "create_markdown_pdfs.Rmd",
                     output_format = "pdf_document",
                     output_file = paste(last_name, '_', first_name, '_', 'reu_application', ".pdf", sep=''),
                     output_dir = here::here()
